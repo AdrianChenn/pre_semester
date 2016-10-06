@@ -1,0 +1,16 @@
+.performance-icon div{float: left;text-align: center; width: 16.666%; margin:10px 0 0 0;}
+.performance-icon div:hover{background:skyblue;}
+.performance-icon div:hover a{color: #fff;}
+.information form{width: 100%;border-top:2px dashed skyblue;}
+.responsive .information {height: 310px;}
+@media (min-width: 40rem) and (max-width: 58rem) {
+    .performance-icon a{ font-size: 14px;}
+    .performance-table th,.performance-table td{ font-size: 14px;}
+
+}@media (max-width: 40rem) {
+    .responsive .information {height: 430px;}
+    .information button{ padding:10px;}
+    .information form{width: 100%; height: 210px; border-top:2px dashed skyblue;}
+    .performance-icon a{ font-size: 12px;}
+    .performance-table th,.performance-table td{ font-size: 12px;}
+}

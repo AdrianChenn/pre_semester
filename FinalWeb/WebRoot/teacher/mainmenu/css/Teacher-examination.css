@@ -1,0 +1,22 @@
+.icon{ position: relative}
+.icon div{float: right;  margin: -23px 0 0 0;}
+.icon div a{ color: #000; margin: 0 10px;}
+.questionbox{width: 74%; margin: 0 13%; background: #fff;height: auto; padding:0 0 20px 0;}
+.question{height: auto; width: 98%; margin: 2px 1%;  border-bottom: 2px skyblue dashed; padding: 5px;}
+.question h6{width: 100%; background: #e8e8e8;  height: 40px;line-height: 40px;}
+.describe{ font-size: 16px;}
+.describe span{ font-size: 14px;}
+.information h5{ float: right; margin:-45px 10px ; font-weight: bold;}
+.information h5:hover a{color:red;}
+.information h5 img{margin: 0 10px;}
+.question .icon a:hover{ color: red;}
+.icon-delete{float: right;}
+.icon-delete div{float: right; margin: 0 10px;}
+.icon-delete div a{ color: #000;}
+.icon-delete div:hover a{color: red;}
+@media (min-width: 40rem) and (max-width: 58rem) {
+    .questionbox{width: 86%; margin: 0 7%;}
+    #rollbook .information{width: 86%; margin: 0 7%;}
+}@media (max-width: 40rem) {
+    .questionbox{width: 90%; margin: 0 5%;}
+}

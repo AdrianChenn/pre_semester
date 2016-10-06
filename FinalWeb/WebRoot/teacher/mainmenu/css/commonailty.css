@@ -1,0 +1,257 @@
+.teacherbutton{text-align: center;}
+*{margin: 0; padding: 0;}
+a{text-decoration: none; font-family: "微软雅黑 Light";}
+li{list-style-type: none;}
+span,h1,p,h2,h3 ,h6 { font-family: "微软雅黑 Light";}
+/*导航部分*/
+
+/*中间部分*/
+
+#center h1{color: #FFF; font-size: 50px; font-family: 'Britannic Bold'; font-weight: 900;
+    position: absolute; width: 70%; margin: 8% 15% 0 15%; text-align: center;}
+#center{position: relative; background-size: 100%; height: 300px;}
+#center .row{width: 60%;  position: absolute; margin: 1% 20%;}
+.tab-bar{border-bottom:1px solid #4f4f4f;}
+@media (min-width: 40rem) and (max-width: 58rem) {
+    #center h1{ font-size: 45px; width: 90%; margin: 13% 5% 0 5%;}
+    #center{height: 300px;}
+    #center .row{width: 70%;  position: absolute; margin: 1% 15%;}
+
+}
+
+   /* .main-section{display:block;  }
+    .wrap-bg{display: none;}
+
+@media (max-width:40rem) {
+    .main-section{display:block;  }
+    .wrap-bg{display: none;}
+}*/
+
+/* 个人资料*/
+.responsive{width: 100%;}
+
+/* 点名*/
+#rollbook{border:1px solid transparent;}
+#rollbook table tr{ font-family:"微软雅黑 Light";color: #fff; height: 40px ;line-height:40px;}
+#rollbook tbody tr:nth-child(odd) { background:#a0d3e8; }
+#rollbook .information{width: 74%; border-radius: 10px 10px 0 0; background:rgba(255,255,255,0.7); margin: 2% 13% 0 13%;}
+#rollbook .information h4{font-size: 28px; font-weight: bold;color: #000; margin:2% 0 0 2%; padding: 10px 0 10px 0; }
+#rollbook .information form label{width: 40%; margin: 2% 0 0 2%}
+#rollbook table{width: 74%}
+.checkbox-inline input{ margin: 0 10px 0 5px ;}
+.checkbox input{ margin: 0 10px 0 5px;}
+.columns {margin: 10px 0 0 0;}
+
+@media (max-width: 40rem) {
+    #rollbook .information{width: 90%; margin: 2% 5% 0 5%;}
+    #rollbook .information form label{width: 90%; margin: 2% 5% 0 5%;}
+    #rollbook table{width: 90%}
+    .checkbox-inline input{ margin: 0 3px 0 2px ;}
+    .checkbox input{ margin: 0 2px 0 1px;}
+    .columns {margin: 0; padding: 0;}
+    #rollbook table tr{height: 30px ;line-height:30px;}
+
+}
+.off-canvas-list{text-align: center;}
+.personal{background:rgba(255,255,255,0.6); position:relative;width: 80%; height: 900px; border: 1px solid #fff; margin:0 10% 10px 10%;border-radius: 10px;}
+.personal button{border-radius: 10px; position: absolute; margin: 23% 0 0 2%; padding: 10px; width: 20%;}
+.personal .touxiang{position: absolute; width: 20%; height:200px; margin: 20px 20px;}
+.personal .touxiang img{ width: 100%; border-radius: 10px;}
+.personal .user{position: absolute; margin: 4% 0 0 25%; font-weight: bold; font-size: 18px;}
+.personal .gexingqianming{position: absolute; margin: 9% 0 0 25%; font-weight: bold; font-size: 18px;}
+.personal .class{position: absolute; margin:19% 0 0 25%; font-weight: bold; font-size: 18px;}
+.personal .zhuanye{position: absolute; margin:14% 0 0 25%; font-weight: bold; font-size: 18px;}
+.personal .user a,.personal .gexingqianming a,.personal .zhuanye a,.personal .class a {color: #4f4f4f;  }
+.personal .user a:hover span,.personal .gexingqianming a:hover span,.personal .zhuanye a:hover span,.personal .class a:hover span{ color: #007ba4;}
+.personal-today{position: absolute;margin: 23% 0 0 26%;}
+.personal-geren{position: absolute; margin: 23% 0 0 45%;}
+/*.visits{position: absolute; margin: 30% 0 0 73%; border: 1px solid #6f6f6f; width: 25%; border-radius: 10px;}
+.visits h6{float: right; font-weight: bold; margin: 10px 10px;}
+.visits ul li span{float: right; margin:0 10px 0 0;  font-size: 12px; }
+.visits ul li{ margin: 8px 0 0 0; border-bottom: 1px solid #008CBA;}
+.visits ul li a{color: #4f4f4f;}
+.visits ul li:hover{ background:#008CBA; }
+.visits ul{margin:20px 20px; font-weight: bold;}
+.visits p{float: right; margin: 0 20px 10px 0;}*/
+.big-visits li img{width: 48px; height: 48px; margin: 0 10px; border-radius: 5px;}
+.big-visits li{ margin: 1%  5%; border-bottom: 1px solid silver;}
+.big-visits li a{ color:#000;}
+.big-visits li span{ float: right; margin:5px 0 0 0;}
+.big-visits p{ float: right; margin:  0  5% 0 0;}
+.tabs .tab-title a{background: #008cba; color: #fff; }
+.tabs .tab-title a:hover{background: #007095;}
+.dynamic{width: 96%; height: 500px; margin:30% 0 0 20px; border: 1px solid #a6e1ec; border-radius: 10px;}
+.dynamic .tabs{border-bottom:3px solid #007095;}
+.dynamic .tabs li{ width: 20%;}
+.Friends{width: 20%; background:#e8e8e8;position:fixed;z-index: 100; margin: -46% 0 0 80%;  border-radius: 5px; overflow: hidden;}
+#flip{background: skyblue; font-size: 18px; font-weight: bold; text-align: center;border-radius: 5px;line-height: 40px;height: 40px;}
+.small-screen{display: none;}
+.Friends ul li img{ width: 40px; height: 40px; margin: 0 5px; border-radius: 10px;}
+.Friends ul li{ margin: 10px 0;white-space: nowrap;text-overflow: ellipsis;}
+.Friends ul li span{ margin: 10px 0 0 10px; color:#1b6d85;font-size: 8px;}
+@media (min-width: 40rem) and (max-width: 58rem) {
+    .personal{ background:rgba(255,255,255,0.6);width: 90%; height:950px; margin:0 5% 10% 5%;}
+    .personal button{border-radius: 10px; position: absolute; margin: 2% 0 0 73%; width: 25%; padding: 10px;}
+    .dynamic{width: 96%; margin:28%  4% 0 2%;}
+    .personal .user a,.personal .gexingqianming a,.personal .zhuanye a,.personal .class a {font-size: 14px;}
+    .Friends{width: 30%; background:#e8e8e8;position: fixed; margin: 10% 0 0 70% ; border-radius: 5px; display: block;}
+    .tabs .tab-title a{padding: 10px 15px 10px 15px;}
+}
+@media (max-width: 40rem) {
+    .name h1,.main-section,.zhuanye,.class,.aboutme,.visits,.dynamic1{display: none;}
+    .personal{ background:rgba(255,255,255,0.6); width: 90%; border: 0px solid red; margin:-3% 5% 10% 5%;}
+    .personal button{margin: 18% 0 0 28%; padding: 5px; width: 30%;}
+    .personal .user{ margin: 4% 0 0 28%;  font-size: 16px;}
+    .personal .gexingqianming{margin: 11% 0 0 28%; font-size: 16px;}
+    .personal .user a,.personal .gexingqianming a{color:#000;  }
+    .personal .user a span,.personal .gexingqianming a span{border-bottom:0px solid #007ba4;}
+    .personal .user a:hover span,.personal .gexingqianming a:hover span,.personal .zhuanye a:hover span,.personal .class a:hover span{ color: #007ba4;}
+    .small-screen{display: block;}
+    .small-screen .dynamic2{width: 100%; margin: 30% 0 0 0; position: absolute;}
+    .small-screen .dynamic2 .tabs li{ border-bottom: 2px solid  #007095; width: 20%; }
+    .small-screen .dynamic2 .tabs li+li{ border-left: 1px solid #fff; }
+    .small-screen .dynamic2 .tabs li a{padding: 5px 10px; text-align: center; }
+    .small-screen .dynamic2 .content{ background: #a6e1ec; height:590px;}
+    .small-screen .small-visits li img{width: 40px; height: 40px; margin: 0 10px; border-radius: 5px;}
+    .small-screen .small-visits li{ margin: 2%  5%; border-bottom: 1px solid silver;}
+    .small-screen .small-visits li a{ color:#000;}
+    .small-screen .small-visits li span{ float: right; margin:5px 0 0 0;}
+    .small-screen .small-visits p{ float: right; margin:  0  5% 0 0;}
+    /*好友*/
+    .small-screen .small-Friends{width: 100%; background:#e8e8e8; }
+    .small-Friends{margin: -15px 0 0 0; }
+    #small-flip{text-align: center; padding: 10px 0; border-radius: 0;}
+    .small-Friends .friend{ height: 543px; margin:0  5% ;}
+    #small-zaixianhaoyou,#small-haoyouqun,#small-mosr,#small-heimd{border-bottom: 1px solid silver; line-height: 40px;height: 40px;}
+    #small-haoyou,#small-qun,#small-mosr1,#small-heimd1{width: 100%;height: 200px; display: none;}
+    #small-zaixianhaoyou img,#small-haoyouqun img,#small-mosr img,#small-heimd img{float:right;margin:10px 20px 0  0 }
+    #small-zaixianhaoyou span,#small-haoyouqun span,#small-mosr span,#small-heimd span{font-size: 12px;}
+    .small-Friends ul li img{ width: 40px; height: 40px; margin: 0 5px; border-radius: 10px;}
+    .small-Friends ul li{ margin: 10px 0;white-space: nowrap;text-overflow: ellipsis;}
+    .small-Friends ul li span{ margin: 10px 0 0 10px; color:#1b6d85;font-size: 8px;}
+}
+/*底部*/
+#footer{color: #fff; font-size: 8px;text-align: center; background: #1a1a1a; height: 40px; line-height: 40px; width: 100%;}
+#footer ul{ margin:0 30%; width: 60% ;text-align: center;}
+#footer  li{float: left; list-style-type: none; margin: 5px 5px; }
+#footer li+li{ border-left: 1px solid #fff; padding: 0 0 0 10px;}
+
+@media (min-width: 40rem) and (max-width: 58rem) {
+     #footer{ font-size: 8px;}
+    #footer ul{ margin:0 15%; width: 70% ;}
+    #footer  li a{ font-size: 8px;}
+    .main-section{display:block;  }
+    .wrap-bg{display: none;}
+}
+
+/*旋转3d动画*/
+@keyframes rotate{
+    0%{
+        transform:rotateX(0deg) rotateY(0deg);
+    }
+    100%{
+        transform:rotateX(360deg) rotateY(360deg);}
+}
+html{
+    background:linear-gradient(#bfe1e2 0%,#000 90%);
+    height:100%;
+}
+.wrap{
+    padding: 12% 0 0 0;
+    perspective:1000px;
+    position: absolute;
+    margin: 0 40%;
+    /*perspective 属性定义 3D 元素距视图的距离，以像素计。该属性允许您改变 3D 元素查看        3D 元素的视图。当为元素定义 perspective 属性时，其子元素会获得透视效果，而不是元素本身。*/
+}
+.cube{margin:auto;
+    width:250px;
+    height:250px;
+    position:relative;
+    transform-style:preserve-3d;/*这一句是为了让浏览知道我们是在3D里面制作*/
+    animation:rotate 20s infinite linear;
+}
+.cube > div{
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0.9;
+
+    color:#fff;
+    font-size:36px;
+    font-family:"Microsoft Yahei";
+    font-weight:bold;
+    text-align:center;
+    line-height:250px;
+    transition:transform 0.2s ease-in;
+}
+
+.cube .out-front{
+    transform:translateZ(125px);
+}
+.cube .out-back{
+    transform:translateZ(-125px) rotateY(180deg);
+}
+.cube .out-left{
+    transform:rotateY(90deg) translateZ(125px) ;
+}
+.cube .out-right{
+    transform:rotateY(-90deg) translateZ(125px);
+}
+.cube .out-top{
+    transform:rotateX(90deg) translateZ(125px);
+}
+.cube .out-bottom{
+    transform:rotateX(-90deg) translateZ(125px);
+}
+
+.wrap:hover .out-front{
+    transform:translateZ(200px);
+}
+.wrap:hover .out-back{
+    transform:translateZ(-200px) rotateY(180deg);
+}
+.wrap:hover .out-left{
+    transform:rotateY(90deg) translateZ(200px) ;
+}
+.wrap:hover .out-right{
+    transform:rotateY(-90deg) translateZ(200px);
+}
+.wrap:hover .out-top{
+    transform:rotateX(90deg) translateZ(200px);
+}
+.wrap:hover .out-bottom{
+    transform:rotateX(-90deg) translateZ(200px);
+}
+.cube > span{
+    display:block;
+    width:100px;
+    height:100px;
+    border:1px solid #000;
+    position:absolute;
+    top:50px;
+    left:50px;
+    color:#fff;
+    font-size:20px;
+    font-family:"Microsoft Yahei";
+    text-align:center;
+    line-height:100px;
+}
+.cube .in-front{
+    transform:translateZ(50px);
+}
+.cube .in-back{
+    transform:translateZ(-50px) rotateY(180deg);
+}
+.cube .in-left{
+    transform:rotateY(90deg) translateZ(50px) ;
+}
+.cube .in-right{
+    transform:rotateY(-90deg) translateZ(50px);
+}
+.cube .in-top{
+    transform:rotateX(90deg) translateZ(50px);
+}
+.cube .in-bottom{
+    transform:rotateX(-90deg) translateZ(50px);
+}
+.cube img{width: 250px; height: 250px;}

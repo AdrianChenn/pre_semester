@@ -1,0 +1,33 @@
+.icon div{float: right;  margin: -23px 0 0 0;}
+.icon div a{ color: #000; margin: 0 10px;}
+.question h6{width: 100%; background: #e8e8e8;  height: 40px;line-height: 40px;}
+.describe span{ font-size: 14px;}
+.information h5{ float: right; margin:-45px 10px ; font-weight: bold;}
+.information h5:hover a{color:red;}
+.information h5 img{margin: 0 10px;}
+.information form{width: 100%; height: 250px; border-top:2px dashed skyblue;}
+.question .icon a:hover{ color: red;}
+.icon-delete div{float: right; margin: 0 10px;}
+.icon-delete div a{ color: #000;}
+.icon-delete div:hover a{color: red;}
+.performance-icon{width: 100%; height:auto;margin: 3.5% 0 0 0;}
+.performance-icon div{float: left;text-align: center; width: 16.666%; margin:5px 0 0 0;}
+.performance-icon div:hover{background:skyblue;}
+.performance-icon div:hover a{color: #fff;}
+.responsive{width: 100%;}
+#rollbook table{ width: 74%; margin: 0 13%}
+.information button{width: 20%; margin:  0 40%;border-radius: 10px;}
+@media (min-width: 40rem) and (max-width: 58rem) {
+    #rollbook table{ width: 86%; margin: 0 7%}
+    #rollbook .information{width: 86%; margin: 0 7%;}
+    .information button{ padding:15px;}
+    .performance-icon a{ font-size: 14px;}
+    .performance-table th,.performance-table td{ font-size: 14px;}
+
+}@media (max-width: 40rem) {
+    #rollbook table{ width: 90%; margin: 0 5%}
+    .information button{ padding:10px;}
+    .information form{width: 100%; height: 210px; border-top:2px dashed skyblue;}
+    .performance-icon a{ font-size: 12px;}
+    .performance-table th,.performance-table td{ font-size: 12px;}
+}

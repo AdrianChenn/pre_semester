@@ -1,0 +1,77 @@
+.release ul li{ float: left; margin:0 1%; font-size: 12px; width: 12%;}
+.release ul li img{ width:20px;height:20px;margin:0 2%;}
+.data ul li { float: left; width: 33.3333%;  font-size: 10px;}
+.data ul{ margin: 10% 12.5% 20px 12.5%; padding: 10px 0 20px 0;}
+.data ul li+li {border-left:1px solid silver ;}
+.invitation ul{width: 90%;margin: 0 5%; }
+
+.invitation ul li{float: left; margin: 0 10px;}
+.invitation ul li:hover { background: #a6e1ec;}
+.invitation ul li img{width: 40px; height: 25px; padding:0 5px 0 10px;}
+.invitation ul li+li{ border-left:1px solid silver;}
+.forum{ position:relative; padding: 1% 0 10% 0; width: 80%;  margin:20px 10% 0 10%; height: auto; border-radius: 10px; }
+.forum .release{border: 1px solid silver;  position: absolute; border-radius:10px; width: 72%; height:220px; margin: 0 1%; background: #fff;}
+.forum .release img{margin: 0 0 0 2%;}
+.forum .release textarea{width:94%;height:100px; margin: -2% 3% 0 3%;}
+.forum .release ul{margin: 2% 3%;  width: 70%; }
+.forum .release .release1{width: 8%; height: 25px;background-color:#c0c0c0;;float:right;margin: 0 3%; text-align: center;}
+.forum .release .release1:hover{background: #007ba4;}
+.forum .release .release1:hover a{color: #fff;}
+.forum .data{width: 25%; height: auto; border: 1px solid silver;  text-align: center;
+    float: right; border-radius: 10px; background: #fff; margin:0 1%;}
+.forum .data .data-bgimg{width: 100%; height:100px;border-radius: 10px 10px 0 0;}
+.forum .data .data-tx{height: 60px; width: 60px;margin: -10% auto;}
+.forum .matter{margin: 230px 0 0 1.25% ; border-radius: 10px; border:1px solid  transparent ;background: #fff;  width: 71.5%;}
+.forum .matter p{font-size: 16px; margin: 2% 0 0 2%;}
+.forum .invitation{border-bottom: 1px solid skyblue; margin: 10px 0 0 0;padding: 0 0 40px 0;}
+.forum .invitation .information-tx{width: 60px; height: 60px; border-radius: 50px; margin: 0 0 0 2%;}
+.forum .invitation .invitation-1{margin:-7% 2% 0 10%; font-size: 12px;}
+.forum .invitation .invitation-1 .information-username{margin: 8px  0 0 0; font-size: 18px; font-weight: bold;}
+
+@media (min-width: 40rem) and (max-width: 58rem) {
+    .forum{padding: 1% 0 10% 0; width: 90%;  margin:20px 5% 0 5%; }
+    .forum .release{width: 98%; height:220px; margin:187px 1% 0 1%; background: #fff;}
+    .forum .release ul{  width: 80%; }
+    .forum .data{width: 98%; height: 180px;margin:0 1%;}
+    .forum .data .data-tx{height: 60px; width: 60px;margin: -4% auto;}
+    .data ul{ margin: 4% 12.5% 20px 12.5%; }
+    .forum .matter{margin: 418px 0 0 1% ; width: 98%;}
+    .invitation ul{width: 100%;margin: 0 0; }
+    .invitation ul li{float: left; margin: 10px 5px;}
+    .invitation ul li:hover { background: #a6e1ec;}
+    .invitation ul li img{width: 35px; height: 25px; padding:0 5px 0 10px;}
+    .invitation ul li+li{ border-left:1px solid silver;}
+
+    .forum .invitation{border-bottom: 1px solid skyblue; margin: 10px 0 0 0;padding: 0 0 40px 0;}
+    .forum .invitation .information-tx{width: 60px; height: 60px; border-radius: 50px; margin: 0 0 0 2%;}
+    .forum .invitation .invitation-1{margin:-7% 2% 0 10%; font-size: 12px;}
+    .forum .invitation .invitation-1 .information-username{margin: 8px  0 0 0; font-size: 18px; font-weight: bold;}
+}
+@media (max-width: 40rem) {
+    .forum{padding: 1% 0 10% 0; width: 90%;  margin:20px 5% 0 5%; }
+    .forum .release{width: 98%; height:220px; margin:187px 1% 0 1%; background: #fff;}
+    .forum .release ul{  width: 100%; }
+    .forum .data{width: 98%; height: 180px;margin:0 1%;}
+    .forum .data .data-tx{height: 60px; width: 60px;margin: -4% auto;}
+    .data ul{ margin: 4% 12.5% 20px 12.5%; }
+    .forum .matter{margin: 418px 0 0 1% ; width: 98%;}
+    .invitation ul{width: 100%; }
+    .invitation ul li{float: left; margin: 5px 5px;}
+    .invitation ul li img{width: 30px; height: 25px; padding:0 5px 0 5px;}
+    .forum .invitation{border-bottom: 1px solid skyblue; margin: 10px 0 0 0;padding: 0 0 40px 0;}
+    .forum .invitation .information-tx{width: 60px; height: 60px; border-radius: 50px; margin: 0 0 0 2%;}
+    .forum .invitation .invitation-1{margin:-7% 2% 0 10%; font-size: 10px;}
+     .invitation-1 span{ margin: 0 0 0 30px;}
+     .invitation-1-img{ width:70%;margin: 0 20px 0  0;}
+    .forum .invitation .invitation-1 .information-username{margin: 0px  0 0 30px; font-size: 14px; font-weight: bold;}
+
+}
+/*补*/
+.Forum-seeforum{width: 72%; margin:230px 1% 50px 1%;  border-radius:10px;height: auto;background: #fff;}
+.Forum-seeforum .see{width: 98%; margin:5px 1%; border-bottom: 2px solid #2e6da4;}
+.Forum-seeforum .see p{font-size: 20px ; font-weight: bold; color: #2e6da4; margin: 5px;}
+.tiezi div{border-bottom: 1px solid skyblue; margin: 10px 2% 0 2%;}
+@media (max-width: 58rem) {
+    .Forum-seeforum{width:98%; margin:410px 1% 50px 1%;}
+    .wrap-bg{display: none;}
+}

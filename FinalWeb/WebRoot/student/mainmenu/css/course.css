@@ -1,0 +1,200 @@
+a:link {
+	text-decoration: none;
+}
+
+
+*{
+	margin:0px;
+	padding:0px
+}
+body{
+	margin: 0px;
+}
+li{
+	list-style-type:none;
+}
+.clear{
+	clear: both;
+}
+/*
+a:hover{
+	color: #059bd8;
+}p{
+	font-family:"STXihei",Georgia,Serif;
+	font-weight: 100;
+	color: #656565;
+}
+h2{
+	color: #656565;
+	font-family:"STXihei",Georgia,Serif;
+	font-weight: 100;
+}
+
+.font-thin{
+	font-family:"STXihei",Georgia,Serif;
+	font-weight: 100;
+}
+
+.set-centre{
+	text-align:center;
+}
+*/
+/*************************************************以下为菜单样式*************************************************/
+.menu{
+	background-color: black;
+	height: 49px;
+}
+.menu-content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu-container{
+	float: right;
+}
+.menu-container li{
+	list-style-type:none;
+	float:left; 
+}
+.menu-container li a{
+	font-size: 18px;
+	font-family:"STXihei",Georgia,Serif;
+	color:white;
+	font-weight: 100;
+	text-decoration:none;
+	display:block;
+	padding:12px;
+}
+.menu-container li a:hover{
+	background-color:#76abc3;
+	color:#FFFFFF;
+}
+
+/*************************************************以下为公告栏注释样式*************************************************/
+.banner-frame{
+	height: 200px;
+	background-image:url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner{
+	width: 1000px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+.banner h4,p{
+	color: white;
+}
+/***************************************************main*************************************************************/
+
+.main{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/***************************************************小菜单************************************************************/
+
+.c-menu{
+	width: 1000px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 2px solid #76abc3;
+}
+
+.c-menu li{
+	width: 120px;
+	height: 60px;
+	list-style-type:none;
+	float:left; 
+}
+.c-menu li a{
+	font-size: 18px;
+	text-align: center;
+	font-family:"STXihei",Georgia,Serif;
+	color:#777777;
+	font-weight: 100;
+	text-decoration:none;
+	display:block;
+	padding:13px;
+}
+/*
+.c-menu li:nth-of-type(1) a{
+	background-color:#76abc3;
+	color:#FFFFFF;
+}*/
+.c-menu li a:hover{
+	background-color:#76abc3;
+	color:#FFFFFF;
+}
+
+/*************************************************以下为内容菜单注释样式*************************************************/
+#content{
+	margin-top: 10px;
+	height: 40px;
+	overflow: hidden;
+
+}
+.tital{
+	height: 32px;
+	padding-top: 8px;
+	padding-left: 5px;
+	color: #777777;
+}
+.tital:hover{
+	background-color: #eeeeee;
+}
+#content ul{
+	margin-left: 28px;
+}
+#content ul li{
+	height: 30px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+#content ul li:hover{
+	background-color: #eeeeee;
+}
+
+#content ul li a{
+	color: #777777;
+	padding-left: 5px;
+}
+
+
+
+
+
+/*************************************************以下为totop注释样式*************************************************/
+#sidebar{
+	width: 50px;
+	height: 50px;
+	background-color: #bbbbbb;
+	color: #76abc3;
+	position: fixed;
+	display: none;
+}
+
+
+
+/*************************************************以下为尾部注释样式*************************************************/
+.end{
+ 	width: 100%;
+ 	background-color: #29313c;
+ 	margin-top: 100px;
+ }
+.end_content{
+	width: 900px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+
+}
+/*************************************************************************************************************************/
+
+
